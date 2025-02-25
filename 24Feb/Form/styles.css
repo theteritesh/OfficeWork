@@ -12,6 +12,10 @@ body {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
     max-width: 800px;
     }
+
+    #details-containner{
+        max-width: 90%;
+    }
     
     h2 {
     color: #2c3e50;
@@ -76,6 +80,19 @@ body {
     
     #education-type {
     padding: 6px 15px;
+    }
+
+    .table {
+        margin-top: 20px;
+    }
+    
+    .table th {
+        background-color: #3498db;
+        color: white;
+    }
+    
+    .table td {
+        vertical-align: middle; /* Center align the content vertically */
     }
     
     
