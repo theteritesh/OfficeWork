@@ -78,9 +78,15 @@ body {
     padding: 6px 15px;
     }
     
+    
     textarea {
     resize: vertical;
     min-height: 100px;
+    }
+    .text-danger {
+        color: red; /* Change to a lighter shade if desired */
+        font-size: 0.8em; /* Smaller font size */
+        margin-top: 5px; /* Space above the message */
     }
     
     @media (max-width: 576px) {
